@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="15dp"
+    card_view:cardElevation="10dp"
+    card_view:cardUseCompatPadding="true">
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="438dp"
+        android:background="@color/cardview_light_background"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="29dp"
+            android:layout_y="19dp"
+            android:text="Contratista:" />
+
+        <TextView
+            android:id="@+id/nCtr"
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:layout_x="182dp"
+            android:layout_y="70dp"
+            android:text="Datos Open"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/contratista"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_x="181dp"
+            android:layout_y="21dp"
+            android:text="Datos Open"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/cd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="31dp"
+            android:layout_y="63dp"
+            android:text="nCtr:" />
+
+        <TextView
+            android:id="@+id/ngr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="30dp"
+            android:layout_y="316dp"
+            android:text="Tipo de contrato:" />
+
+        <TextView
+            android:id="@+id/tipoContrato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="186dp"
+            android:layout_y="313dp"
+            android:text="Datos Open" />
+
+        <TextView
+            android:id="@+id/tj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="31dp"
+            android:layout_y="218dp"
+            android:text="Plazo:" />
+
+        <TextView
+            android:id="@+id/plazo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="181dp"
+            android:layout_y="219dp"
+            android:text="Datos Open" />
+
+        <TextView
+            android:id="@+id/ne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="30dp"
+            android:layout_y="132dp"
+            android:text="Objeto del contrato:" />
+
+        <TextView
+            android:id="@+id/objetoDelcontr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="184dp"
+            android:layout_y="132dp"
+            android:text="Datos Open" />
+
+
+    </AbsoluteLayout>
+</android.support.v7.widget.CardView>
